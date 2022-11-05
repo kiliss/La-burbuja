@@ -9,7 +9,7 @@ function Details() {
     <div>
       <div className="p-6 my-6 dark:bg-gray-800 dark:text-gray-100">
 	<div className="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100 flex-col">
+		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100 flex-col mt-6">
 			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-violet-400">
 				<BsEmojiSmile size={60} color="black"/>
 			</div>
@@ -18,7 +18,7 @@ function Details() {
 				</p>
 			</div>
 		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100 flex-col">
+		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100 flex-col mt-6">
 			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-violet-400">
 				<BsEmojiLaughing size={60} color="black"/>
 			</div>
@@ -29,7 +29,7 @@ function Details() {
 			
 		</div>
 
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100 flex-col">
+		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100 flex-col mt-6">
 			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-violet-400">
 				<BsEmojiWink size={60} color="black"/>
 			</div>
@@ -39,7 +39,7 @@ function Details() {
 			</div>
 			
 		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100 flex-col">
+		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100 flex-col mt-6">
 			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-violet-400">
 				<TfiMoney size={60} color="black"/>
 			</div>

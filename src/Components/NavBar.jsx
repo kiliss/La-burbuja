@@ -58,7 +58,7 @@ export default function NavBar() {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
                             <li className="text-white hover:text-[#1D8049]">
                                 <Link to="/">Inicio</Link>
                             </li>
