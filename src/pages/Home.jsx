@@ -16,17 +16,22 @@ function Home() {
     </svg>
 </div>
       <section className="dark:bg-gray-800 dark:text-gray-100 bg-blue-gray-200">
+        
 	<div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
 		<h1 className="animate__animated animate__fadeInDown text-4xl font-bold leading-none sm:text-5xl text-[#2FCB75]">20 años de experiencia en el mercado de la distribución de productos de limpieza
 		</h1>
+    
 		<p className="animate__animated animate__fadeInLeft px-8 mt-8 mb-12 text-lg text-white">Somos una empresa que arranco con la venta de productos sueltos de limpieza en la ciudad de Urdinarrain y se expandió para poder vender al sur de la provincia de Entre Rios
 </p>
+    
+
 	</div>
-  <div class="custom-shape-divider-bottom-1667585395">
+  <div class="custom-shape-divider-bottom-1667585395 relative bottom-[-30vh] sm:bottom-[10vh]">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
     </svg>
 </div>
+
 </section>
     <div className="bg-[#8FE6B6] block w-full">
     <Details/>
