@@ -16,20 +16,4 @@
 .custom-shape-divider-top-1667585818 .shape-fill {
   fill: #2FCB75;
 }
-.custom-shape-divider-bottom-1667585395 {
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-bottom-1667585395 svg {
-  position: relative;
-  display: block;
-  width: calc(139% + 1.3px);
-  height: 163px;
-}
-
-.custom-shape-divider-bottom-1667585395 .shape-fill {
-  fill: #8FE6B6;
-}
 

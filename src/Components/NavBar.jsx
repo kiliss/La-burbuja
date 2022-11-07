@@ -69,7 +69,7 @@ export default function NavBar() {
                             <Link to="/">Transporte</Link>
                             </li>
                             <li className="text-white hover:text-[#1D8049]">
-                            <Link to="/">Contacto</Link>
+                            <Link to="/contact">Contacto</Link>
                             </li>
                         </ul>
 
