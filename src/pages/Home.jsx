@@ -41,9 +41,9 @@ function Home() {
         </svg>
       </div>
       <section className="dark:bg-gray-800 dark:text-gray-100 bg-blue-gray-200 ">
-        <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-22 md:px-10 lg:px-32 xl:max-w-3xl">
+        <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-22 md:px-10 lg:px-32 xl:max-w-3xl ">
           {/* <img src={logo} alt="logo" className="animate__animated animate__fadeInDown animate__delay-1s" /> */}
-          <h1 className="animate__animated animate__fadeInDown text-4xl font-bold leading-none sm:text-5xl text-[#2FCB75]">
+          <h1 className="animate__animated animate__fadeInDown text-4xl  leading-none sm:text-5xl text-[#2FCB75]">
             20 años de experiencia en el mercado de la distribución de productos
             de limpieza
           </h1>
