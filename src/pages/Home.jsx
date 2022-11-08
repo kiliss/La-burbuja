@@ -61,8 +61,8 @@ function Home() {
       </section>
       <div className="bg-[#8FE6B6] block w-full py-1">
         <Details />
-        <CallToAction />
       </div>
+        <CallToAction />
     </div>
   );
 }
