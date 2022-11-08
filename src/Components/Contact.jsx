@@ -114,7 +114,8 @@ function Contact() {
           ></path>
         </svg>
       </div>
-      <div className="flex justify-center bg-[#8FE6B6] py-12">
+      <div className="flex justify-center bg-[#8FE6B6] py-12 items-center flex-col">
+        <h1 className="text-4xl font-bold leading-none sm:text-5xl text-[#2FCB75]">Contacto</h1>
         <form
           className="w-full max-w-lg p-5 rounded bg-[#26a65f]/30 mt-5 mb-5"
           ref={form}
