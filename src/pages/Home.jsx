@@ -2,6 +2,7 @@ import "./Home.css";
 import "animate.css";
 import { useEffect, useState } from "react";
 import Details from "../Components/Details";
+import CallToAction from "../Components/CallToAction";
 import Carousel2 from "../Components/Carousel";
 
 function Home() {
@@ -12,7 +13,6 @@ function Home() {
       behavior: "smooth",
     });
   };
-
 
   return (
     <div>
@@ -53,15 +53,15 @@ function Home() {
           </p>
           <button
             onClick={scrollDown}
-            className="animate__animated animate__fadeInUp animate__delay-1s px-8 py-3 text-lg font-semibold text-white bg-[#2FCB75] rounded-lg shadow-lg hover:bg-[#1D8049] hover:shadow-none"
+            className="animate__animated animate__fadeInUp animate__delay-1s px-8 py-3 text-lg font-semibold text-white bg-[#2FCB75] rounded-lg shadow-lg hover:bg-[#1D8049] transition ease-in duration-200 hover:shadow-none"
           >
             Ver más
           </button>
         </div>
       </section>
-
       <div className="bg-[#8FE6B6] block w-full py-1">
         <Details />
+        <CallToAction />
       </div>
     </div>
   );
