@@ -30,9 +30,7 @@ function Details() {
                   animate && "animate__animated animate__zoomIn"
                 }`}
               >
-                Incorporamos el sector de venta de productos para el cuidado de
-                piletas, tanto del hogar como para instituciones. Así también
-                asesoramiento para el cuidado de ambas
+                20 años de experiencia en el rubro de los productos de limpieza sueltos y tratamiento de aguas para piscinas.
               </p>
             </div>
           </div>
@@ -46,8 +44,7 @@ function Details() {
                   animate && "animate__animated animate__zoomIn"
                 }`}
               >
-                Distribuimos productos sueltos para limpieza ya sean jabones
-                líquidos suavizantes lavandina y mas.
+ Atendemos el comercio con productos de limpieza suelto y entrega propia.
               </p>
             </div>
           </div>
@@ -62,8 +59,7 @@ function Details() {
                   animate && "animate__animated animate__zoomIn"
                 }`}
               >
-                Cuidamos el agua, trabajamos con la empresa Aguas, distribuidora
-                de Nataclor, Maytronics y astra pool.
+                Atención a instituciones y empresas con productos de limpieza.
               </p>
             </div>
           </div>
@@ -77,8 +73,7 @@ function Details() {
                   animate && "animate__animated animate__zoomIn"
                 }`}
               >
-                Manejamos estándares de alta calidad y mantenemos los precios
-                competitivos.
+Atendemos grandes piscinas con productos y asesoramiento para el tratamiento y la conservación de las aguas.
               </p>
             </div>
           </div>
