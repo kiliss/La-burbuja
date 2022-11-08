@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
+
 
 const validate = (values) => {
   let errors = {};
@@ -23,7 +25,10 @@ const validate = (values) => {
 };
 
 function Contact() {
+  const navigate = useNavigate();
+  
   const form = useRef();
+
   const [error, setError] = useState({});
   const [value, setValue] = useState({
     user_name: "",
@@ -45,6 +50,7 @@ function Contact() {
     setError(errors);
     console.log(errors);
     if (Object.keys(errors).length === 0) {
+      // navigate to / if close toast notification
       toast.success("Enviado Correctamente.", {
         position: "bottom-right",
         autoClose: 3000,
@@ -115,9 +121,9 @@ function Contact() {
         </svg>
       </div>
       <div className="flex justify-center bg-[#8FE6B6] py-12 items-center flex-col">
-        <h1 className="text-4xl font-bold leading-none sm:text-5xl text-[#2FCB75]">Contacto</h1>
+        <h1 className="animate__animated animate__slideInLeft text-4xl font-bold leading-none sm:text-5xl text-[#2FCB75]">Contacto</h1>
         <form
-          className="w-full max-w-lg p-5 rounded bg-[#26a65f]/30 mt-5 mb-5"
+          className="animate__animated animate__fadeIn w-full max-w-lg p-5 rounded bg-[#26a65f]/30 mt-5 mb-5"
           ref={form}
           onSubmit={(e) => sendEmail(e)}
         >

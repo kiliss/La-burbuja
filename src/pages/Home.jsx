@@ -1,5 +1,6 @@
 import "./Home.css";
 import "animate.css";
+import { useEffect, useState } from "react";
 import Details from "../Components/Details";
 import Carousel2 from "../Components/Carousel";
 
@@ -11,6 +12,7 @@ function Home() {
       behavior: "smooth",
     });
   };
+
 
   return (
     <div>
@@ -57,6 +59,7 @@ function Home() {
           </button>
         </div>
       </section>
+
       <div className="bg-[#8FE6B6] block w-full py-1">
         <Details />
       </div>
