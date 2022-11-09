@@ -20,7 +20,7 @@ function Footer() {
           </p>
         </div> */}
         <div>
-          <Link to="/contact" className="text-green-900 text-2x1">
+          <Link to="/contacto" className="text-green-900 text-2x1">
             Contacto
           </Link>
           <span className="text-black text-2x1 flex">
