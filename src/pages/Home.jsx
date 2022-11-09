@@ -3,6 +3,7 @@ import "animate.css";
 import { useEffect, useState } from "react";
 import Details from "../Components/Details";
 import CallToAction from "../Components/CallToAction";
+import CallToAction2 from "../Components/CallToAction2";
 import Carousel2 from "../Components/Carousel";
 import logo from "../assets/logo.png";
 
@@ -60,6 +61,7 @@ function Home() {
         <Details />
       </div>
         <CallToAction />
+        <CallToAction2 />
     </div>
   );
 }
