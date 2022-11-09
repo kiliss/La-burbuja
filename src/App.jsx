@@ -13,9 +13,9 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/transport" element={<Transport />} />
+          <Route path="/contacto" element={<Contact />} />
+          <Route path="/productos" element={<Products />} />
+          <Route path="/transporte" element={<Transport />} />
         </Routes>
         <Footer />
         <WhatsAppButton />

@@ -13,7 +13,6 @@ function Home() {
       behavior: "smooth",
     });
   };
-
   return (
     <div>
       <Waves />
@@ -24,7 +23,6 @@ function Home() {
             20 años de experiencia en el mercado de la distribución de productos
             de limpieza
           </h1>
-
           <button
             onClick={scrollDown}
             className="animate__animated animate__fadeInUp animate__delay-1s px-8 py-3 text-lg font-semibold text-white bg-[#2FCB75] rounded-lg shadow-lg hover:bg-[#1D8049] transition ease-in duration-200 hover:shadow-none mt-60"
