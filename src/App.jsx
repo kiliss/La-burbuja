@@ -1,10 +1,11 @@
-import "./App.css";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./Components/NavBar";
-import Home from "./pages/Home";
-import Footer from "./Components/Footer";
-import Contact from "./Components/Contact";
 import WhatsAppButton from "./Components/WhatsAppButton";
+import Footer from "./Components/Footer";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Products from "./pages/Products";
+import Transport from "./pages/Transport";
 function App() {
   return (
     <div>
@@ -13,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/transport" element={<Transport />} />
         </Routes>
         <Footer />
         <WhatsAppButton />

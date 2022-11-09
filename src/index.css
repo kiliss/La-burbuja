@@ -12,3 +12,22 @@ section {
   height: 90vh;
 }
 
+.custom-shape-divider-top-1667585818 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1667585818 svg {
+  position: relative;
+  display: block;
+  width: calc(137% + 1.3px);
+  height: 50px;
+}
+
+.custom-shape-divider-top-1667585818 .shape-fill {
+  fill: #2FCB75;
+}
+
