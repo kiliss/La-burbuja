@@ -1,7 +1,11 @@
 import Waves from "../Components/Waves";
 import reparto from "../assets/transporte.png";
+import {useEffect} from "react";
 
 function Transport() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="">
       <Waves />

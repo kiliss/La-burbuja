@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
@@ -28,6 +28,10 @@ function Contact() {
   const navigate = useNavigate();
 
   const form = useRef();
+  // scroll top on load
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const [error, setError] = useState({});
   const [value, setValue] = useState({
