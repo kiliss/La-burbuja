@@ -8,8 +8,8 @@ function GoogleMaps(){
         ifameData.src=`https://maps.google.com/maps?q=${lat},${lon}&hl=es;&output=embed`
     })
     return(
-        <div>
-            <iframe id="iframeId" height="200px" width="90%"></iframe>
+        <div className="ml-2">
+            <iframe id="iframeId" height="200px" width="100%"></iframe>
         </div>
     );
 }

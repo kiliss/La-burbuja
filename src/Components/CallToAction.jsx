@@ -1,4 +1,3 @@
-import "animate.css";
 import { useState, useEffect } from "react";
 import { useScroll } from "../eventslisteners";
 import { CiShop } from "react-icons/ci";

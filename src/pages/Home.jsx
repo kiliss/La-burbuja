@@ -1,4 +1,3 @@
-import "animate.css";
 import Details from "../Components/Details";
 import CallToAction from "../Components/CallToAction";
 import CallToAction2 from "../Components/CallToAction2";

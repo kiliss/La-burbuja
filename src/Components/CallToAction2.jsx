@@ -1,4 +1,3 @@
-import "animate.css";
 import { useState} from "react";
 import { useScroll } from "../eventslisteners";
 import {TbTruckDelivery} from "react-icons/tb";
@@ -38,7 +37,7 @@ function CallToAction2() {
           </p>
           <div className="lg:mt-0 lg:flex-shrink-0">
             <div className="mt-12 inline-flex rounded-md shadow">
-              <a href="/transporte">
+              <Link to="/transporte">
               <button
                 type="button"
                 className={`py-4 px-6 bg-[#2FCB75]  hover:bg-[#1D8049] focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ${
@@ -48,7 +47,7 @@ function CallToAction2() {
               >
                 Ver Localidades
               </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

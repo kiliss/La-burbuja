@@ -7,15 +7,15 @@ function Transport() {
       <Waves />
       <div className="bg-[#46E17F] py-1">
         <div className="bg-[#65E695]">
-          <div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
-            <h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl text-[#2cbe6e]">
+          <div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900 ">
+            <h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl text-[#2cbe6e] animate__animated animate__backInLeft">
               Distribución y Logística
             </h1>
-            <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl text-[#1D8049]">
+            <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl text-[#1D8049] animate__animated animate__backInLeft">
               Realizamos entregas a las siguientes localidades cada 15 dias sin
               costo de flete.
             </p>
-            <div className="flex flex-wrap justify-center bg-[#46E17F] rounded">
+            <div className="flex flex-wrap justify-center bg-[#46E17F] rounded animate__animated animate__bounceIn">
               <div className="dark:bg-gray-800 dark:text-gray-100">
                 <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
                   <div className="max-w-3xl mx-auto text-center">
@@ -23,7 +23,7 @@ function Transport() {
                       Zonas que abarcamos:
                     </h2>
                   </div>
-                  <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+                  <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8 flex flex-col items-center">
                     <div className="flex items-center">
                       {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ function Transport() {
                       <div className="ml-3">
                         <dt className="text-lg font-medium">Zona 2:</dt>
                         <dd className="mt-2 text-[#208d51]">
-                          Gualeguay y La Roque.
+                          Gualeguay y La Roque. 
                         </dd>
                       </div>
                     </div>
@@ -127,7 +127,7 @@ function Transport() {
           <img
             src={reparto}
             alt=""
-            className="w-3/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500"
+            className="w-3/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 bg-gray-500 animate__animated animate__backInLeft"
           />
           <div className="mb-2">
             <a

@@ -12,8 +12,6 @@ function Details() {
     console.log(window.scrollY);
     if (window.scrollY > 200) {
       setAnimate(true);
-    } else {
-      setAnimate(false);
     }
   });
   return (
