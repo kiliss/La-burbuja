@@ -22,12 +22,16 @@ function CallToAction() {
           <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4x1">
             <span
               className={`${
-                animate && "animate__animated animate__headShake"
+                animate && "animate__animated animate__pulse"
               } block text-[#1D8049]`}
             >
               ¿Te interesan nuestros productos?
             </span>
-            <span className="flex justify-center">
+            <span
+              className={`${
+                animate && "animate__animated animate__pulse"
+              } flex justify-center`}
+            >
               <CiShop size={60} color="black" />
             </span>
           </h2>
@@ -42,7 +46,7 @@ function CallToAction() {
                   type="button"
                   className={`py-4 px-6 bg-[#2FCB75]  hover:bg-[#1D8049] focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ${
                     animate &&
-                    "animate__animated animate__wobble animate__delay-2s"
+                    "animate__animated animate__rubberBand animate__delay-2s"
                   }`}
                 >
                   Ver Productos

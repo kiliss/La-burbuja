@@ -72,7 +72,7 @@ function Products() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <p className="text-lg font-medium leading-6 text-black">
+                    <p className="text-lg font-medium leading-6 text-green-600">
                       Distribuimos productos sueltos para limpieza ya sean
                       jabones líquidos suavizantes lavandina y más
                     </p>
@@ -98,10 +98,10 @@ function Products() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    {/* <h4 className="text-lg font-medium leading-6 text-black">
+                    {/* <h4 className="text-lg font-medium leading-6 text-green-600">
                       Cu imperdiet posidonium sed
                     </h4> */}
-                    <p className="text-lg font-medium leading-6 text-black">
+                    <p className="text-lg font-medium leading-6 text-green-600">
                       Contamos con químicos de primera calidad para el cuidado
                       de la pileta ya sean institucionales como del hogar
                     </p>
@@ -127,10 +127,10 @@ function Products() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    {/* <h4 className="text-lg font-medium leading-6 text-black">
+                    {/* <h4 className="text-lg font-medium leading-6 text-green-600">
                       Nulla omittam sadipscing mel ne
                     </h4> */}
-                    <p className="text-lg font-medium leading-6 text-black">
+                    <p className="text-lg font-medium leading-6 text-green-600">
                       Contamos con los robots limpia piletas mytronics dolphin.
                     </p>
                   </div>
@@ -144,7 +144,7 @@ function Products() {
           <div>
             <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
               <div className="lg:col-start-2">
-                {/* <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-black">
+                {/* <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-green-600">
                   Eam nibh gloriatur ex
                 </h3> */}
                 {/* <p className="mt-3 text-lg text-gray-400">
@@ -175,10 +175,10 @@ function Products() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      {/* <h4 className="text-lg font-medium leading-6 text-black">
+                      {/* <h4 className="text-lg font-medium leading-6 text-green-600">
                         Cibo augue offendit has ad
                       </h4> */}
-                      <p className="text-lg font-medium leading-6 text-black">
+                      <p className="text-lg font-medium leading-6 text-green-600">
                         Contamos con bombas y filtros para pileta (astrapool)
                       </p>
                     </div>
@@ -203,10 +203,10 @@ function Products() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      {/* <h4 className="text-lg font-medium leading-6 text-black">
+                      {/* <h4 className="text-lg font-medium leading-6 text-green-600">
                         At eum ferri luptatum lobortis
                       </h4> */}
-                      <p className="text-lg font-medium leading-6 text-black">
+                      <p className="text-lg font-medium leading-6 text-green-600">
                         Contamos con accesorios (barrefondos, saca hojas, cabos,
                         etc...)
                       </p>
@@ -232,10 +232,10 @@ function Products() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      {/* <h4 className="text-lg font-medium leading-6 text-black">
+                      {/* <h4 className="text-lg font-medium leading-6 text-green-600">
                         Dicunt verterem evertitur eu sea
                       </h4> */}
-                      <p className="text-lg font-medium leading-6 text-black">
+                      <p className="text-lg font-medium leading-6 text-green-600">
                         Manejamos marcas de artículos de limpieza (trapos de
                         piso esponjas cepillos para el piso, bolsas de residuo)
                       </p>
