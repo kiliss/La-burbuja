@@ -1,6 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import jabondemanosconi from "../assets/Carousel/jabondemanosconi.jpg";
+import Jabondemanosconi from "../assets/Carousel/jabondemanosconi.jpg";
 import Jabondemanosdove from "../assets/Carousel/Jabondemanosdove.jpg";
 import Jabondemanoslimon from "../assets/Carousel/Jabondemanoslimon.jpg";
 import JabonliquidoAzul from "../assets/Carousel/JabonliquidoAzul.jpg";
@@ -26,7 +26,7 @@ function Carousel2() {
       className="md:w-3/4 w-full"
     >
       <div>
-        <img src={jabondemanosconi} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img src={Jabondemanosconi} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
         <p className="legend">Jabón De Manos Coni</p>
       </div>
       <div>
