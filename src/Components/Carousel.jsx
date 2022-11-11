@@ -1,6 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import Jabondemanosconi from "../assets/Carousel/jabondemanosconi.jpg";
+import Jabondemanosconi from "../assets/Carousel/Jabondemanosconi.jpg";
 import Jabondemanosdove from "../assets/Carousel/Jabondemanosdove.jpg";
 import Jabondemanoslimon from "../assets/Carousel/Jabondemanoslimon.jpg";
 import JabonliquidoAzul from "../assets/Carousel/JabonliquidoAzul.jpg";
