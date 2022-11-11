@@ -6,9 +6,9 @@ import Carousel from "../Components/Carousel";
 import Carousel2 from "../Components/Carousel2";
 
 function Products() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [animate, setAnimate] = useState(false);
   const [animate2, setAnimate2] = useState(false);
   const [animate3, setAnimate3] = useState(false);
@@ -31,21 +31,21 @@ function Products() {
   return (
     <div>
       <Waves />
-      <div className="bg-[#8FE6B6] text-gray-100 py-1">
+      <div className="bg-[#45d485] text-gray-100 py-1">
         <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl ">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-green-600 animate__animated animate__backInLeft">
+            <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-green-700 animate__animated animate__backInLeft">
               Productos
             </h2>
             <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-black animate__animated animate__backInLeft">
               Realizamos entregas a las{" "}
-              <Link className="text-green-500" to="/transporte">
+              <Link className="text-green-700" to="/transporte">
                 siguientes
               </Link>{" "}
               localidades cada 15 dias sin costo de flete.
             </p>
           </div>
-          <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+          <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center ">
             <div>
               <div
                 className={`space-y-12  ${
@@ -72,7 +72,7 @@ function Products() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <p className="text-lg font-medium leading-6 text-green-600">
+                    <p className="text-lg font-medium leading-6 text-black">
                       Distribuimos productos sueltos para limpieza ya sean
                       jabones líquidos suavizantes lavandina y más
                     </p>
@@ -98,10 +98,10 @@ function Products() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    {/* <h4 className="text-lg font-medium leading-6 text-green-600">
+                    {/* <h4 className="text-lg font-medium leading-6 text-black">
                       Cu imperdiet posidonium sed
                     </h4> */}
-                    <p className="text-lg font-medium leading-6 text-green-600">
+                    <p className="text-lg font-medium leading-6 text-black">
                       Contamos con químicos de primera calidad para el cuidado
                       de la pileta ya sean institucionales como del hogar
                     </p>
@@ -127,10 +127,10 @@ function Products() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    {/* <h4 className="text-lg font-medium leading-6 text-green-600">
+                    {/* <h4 className="text-lg font-medium leading-6 text-black">
                       Nulla omittam sadipscing mel ne
                     </h4> */}
-                    <p className="text-lg font-medium leading-6 text-green-600">
+                    <p className="text-lg font-medium leading-6 text-black">
                       Contamos con los robots limpia piletas mytronics dolphin.
                     </p>
                   </div>
@@ -144,7 +144,7 @@ function Products() {
           <div>
             <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
               <div className="lg:col-start-2">
-                {/* <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-green-600">
+                {/* <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-black">
                   Eam nibh gloriatur ex
                 </h3> */}
                 {/* <p className="mt-3 text-lg text-gray-400">
@@ -175,10 +175,10 @@ function Products() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      {/* <h4 className="text-lg font-medium leading-6 text-green-600">
+                      {/* <h4 className="text-lg font-medium leading-6 text-black">
                         Cibo augue offendit has ad
                       </h4> */}
-                      <p className="text-lg font-medium leading-6 text-green-600">
+                      <p className="text-lg font-medium leading-6 text-black">
                         Contamos con bombas y filtros para pileta (astrapool)
                       </p>
                     </div>
@@ -203,10 +203,10 @@ function Products() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      {/* <h4 className="text-lg font-medium leading-6 text-green-600">
+                      {/* <h4 className="text-lg font-medium leading-6 text-black">
                         At eum ferri luptatum lobortis
                       </h4> */}
-                      <p className="text-lg font-medium leading-6 text-green-600">
+                      <p className="text-lg font-medium leading-6 text-black">
                         Contamos con accesorios (barrefondos, saca hojas, cabos,
                         etc...)
                       </p>
@@ -232,10 +232,10 @@ function Products() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      {/* <h4 className="text-lg font-medium leading-6 text-green-600">
+                      {/* <h4 className="text-lg font-medium leading-6 text-black">
                         Dicunt verterem evertitur eu sea
                       </h4> */}
-                      <p className="text-lg font-medium leading-6 text-green-600">
+                      <p className="text-lg font-medium leading-6 text-black">
                         Manejamos marcas de artículos de limpieza (trapos de
                         piso esponjas cepillos para el piso, bolsas de residuo)
                       </p>
