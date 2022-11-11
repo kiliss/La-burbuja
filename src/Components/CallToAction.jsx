@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useScroll } from "../eventslisteners";
 import { CiShop } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 function CallToAction() {
   // enable animate.css on scroll down
@@ -31,21 +32,22 @@ function CallToAction() {
             </span>
           </h2>
           <p className={`text-xl mt-4 max-w-md mx-auto text-[#1BA84F]`}>
-            Manejamos marcas de artículos de limpieza (trapos de piso esponjas
-            cepillos para el piso, bolsas de residuo) Make, Uruguayense, Xper,
-            Rendidor
+            Distribuimos productos sueltos para limpieza ya sean jabones
+            líquidos suavizantes lavandina y más
           </p>
           <div className="lg:mt-0 lg:flex-shrink-0">
             <div className="mt-12 inline-flex rounded-md shadow">
-              <button
-                type="button"
-                className={`py-4 px-6 bg-[#2FCB75]  hover:bg-[#1D8049] focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ${
-                  animate &&
-                  "animate__animated animate__wobble animate__delay-2s"
-                }`}
-              >
-                Ver Productos
-              </button>
+              <Link to="/productos">
+                <button
+                  type="button"
+                  className={`py-4 px-6 bg-[#2FCB75]  hover:bg-[#1D8049] focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ${
+                    animate &&
+                    "animate__animated animate__wobble animate__delay-2s"
+                  }`}
+                >
+                  Ver Productos
+                </button>
+              </Link>
             </div>
           </div>
         </div>

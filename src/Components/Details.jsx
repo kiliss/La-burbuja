@@ -9,7 +9,6 @@ function Details() {
   // enable animate.css on scroll down
   const [animate, setAnimate] = useState(false);
   useScroll(() => {
-    console.log(window.scrollY);
     if (window.scrollY > 200) {
       setAnimate(true);
     }
