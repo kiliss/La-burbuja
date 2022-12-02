@@ -10,15 +10,6 @@ function Footer() {
     <footer className="footer footer-center p-5 bg-base-200 text-base-content rounded bg-[#2FCB75] flex justify-between">
       <div>
         <img src={logo} alt="logo" />
-        {/* <div>
-          <p className="text-sm">
-            Designed by:
-            <a href="https://kiliss.github.io/" className="text-orange-800">
-              {" "}
-              Kiliss
-            </a>
-          </p>
-        </div> */}
         <div>
           <Link to="/contacto" className="text-green-900 text-2x1">
             Contacto

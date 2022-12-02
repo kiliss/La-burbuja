@@ -26,43 +26,83 @@ function Carousel2() {
       className="md:w-3/4 w-full"
     >
       <div>
-        <img src={Jabondemanosconi} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={Jabondemanosconi}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Jabón De Manos Coni</p>
       </div>
       <div>
-        <img src={Jabondemanosdove} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={Jabondemanosdove}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Jabón De Manos Dove</p>
       </div>
       <div>
-        <img src={Jabondemanoslimon} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={Jabondemanoslimon}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Jabón De Manos Limón</p>
       </div>
       <div>
-        <img src={JabonliquidoAzul} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={JabonliquidoAzul}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Jabón Liquido Azul</p>
       </div>
       <div>
-        <img src={JabonLiquidoVerde} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={JabonLiquidoVerde}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Jabón Liquido Verde</p>
       </div>
       <div>
-        <img src={Lavandina} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={Lavandina}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Lavandina</p>
       </div>
       <div>
-        <img src={LavandinaRopaColor} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={LavandinaRopaColor}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Lavandina Ropa Color</p>
       </div>
       <div>
-        <img src={SuavizanteBlanco} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={SuavizanteBlanco}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Suavizante Blanco</p>
       </div>
       <div>
-        <img src={SuavizanteCeleste} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={SuavizanteCeleste}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Suavizante Celeste</p>
       </div>
       <div>
-        <img src={SuavizanteRosa} className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden" />
+        <img
+          src={SuavizanteRosa}
+          loading="lazy"
+          className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
+        />
         <p className="legend">Suavizante Rosa</p>
       </div>
     </Carousel>

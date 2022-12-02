@@ -11,7 +11,7 @@ import DesodoranteLavanda from "../assets/Carousel2/DesodoranteLavanda.jpg";
 import DesodoranteArpege from "../assets/Carousel2/DesodoranteArpege.jpg";
 import Cloro from "../assets/Carousel2/Cloro.jpg";
 import CeraRoja from "../assets/Carousel2/CeraRoja.jpg";
-import CeraIncolora from "../assets/Carousel2/CeraIncolora.jpg";
+import CeraIncolora from "../assets/Carousel2/CeraIncolora.avif";
 
 function Carousel3() {
   return (
@@ -30,6 +30,7 @@ function Carousel3() {
       <div>
         <img
           src={DetergenteVerde}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Detergente Verde</p>
@@ -37,6 +38,7 @@ function Carousel3() {
       <div>
         <img
           src={DetergenteUltra}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Detergente Ultra</p>
@@ -44,6 +46,7 @@ function Carousel3() {
       <div>
         <img
           src={DetergenteLimon}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Detergente Limón</p>
@@ -51,6 +54,7 @@ function Carousel3() {
       <div>
         <img
           src={Desodorantepino}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Desodorante Pino</p>
@@ -58,6 +62,7 @@ function Carousel3() {
       <div>
         <img
           src={DesodoranteMisterio}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Desodorante Misterio</p>
@@ -65,6 +70,7 @@ function Carousel3() {
       <div>
         <img
           src={DesodoranteLisoform}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Desodorante Lisoform</p>
@@ -72,6 +78,7 @@ function Carousel3() {
       <div>
         <img
           src={Desodorantelimon}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Desodorante Limón</p>
@@ -79,6 +86,7 @@ function Carousel3() {
       <div>
         <img
           src={DesodoranteLavanda}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Desodorante Lavanda</p>
@@ -86,6 +94,7 @@ function Carousel3() {
       <div>
         <img
           src={DesodoranteArpege}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Desodorante Arpege</p>
@@ -93,6 +102,7 @@ function Carousel3() {
       <div>
         <img
           src={Cloro}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Cloro</p>
@@ -100,6 +110,7 @@ function Carousel3() {
       <div>
         <img
           src={CeraRoja}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Cera Roja</p>
@@ -107,6 +118,7 @@ function Carousel3() {
       <div>
         <img
           src={CeraIncolora}
+          loading="lazy"
           className="mx-auto rounded-lg shadow-lg bg-gray-500 overflow-hidden"
         />
         <p className="legend">Cera Incolora</p>

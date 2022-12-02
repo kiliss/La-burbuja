@@ -13,7 +13,6 @@ function Products() {
   const [animate2, setAnimate2] = useState(false);
   const [animate3, setAnimate3] = useState(false);
   useScroll(() => {
-    console.log(window.scrollY);
     if (window.scrollY > 100) {
       setAnimate(true);
     } else {

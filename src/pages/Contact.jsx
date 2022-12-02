@@ -3,6 +3,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import Waves from "../Components/Waves";
+import emailjs from "emailjs-com";
 
 const validate = (values) => {
   let errors = {};
@@ -55,6 +56,22 @@ function Contact() {
     console.log(errors);
     if (Object.keys(errors).length === 0) {
       // navigate to / if close toast notification
+      emailjs
+      .sendForm( "service_dggwwbn", "template_k3mouyu", form.current, "i0JmX0Ql5V-R4r_co" )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setValue({
+            user_name: "",
+            user_lastname: "",
+            user_email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
       toast.success("Enviado Correctamente.", {
         position: "bottom-right",
         autoClose: 3000,
@@ -77,26 +94,6 @@ function Contact() {
         theme: "light",
       });
     }
-    //   if (Object.keys(errors).length === 0) {
-    //   emailjs
-    //     .sendForm( "service_dggwwbn", "template_k3mouyu", form.current, "i0JmX0Ql5V-R4r_co" )
-    //     .then(
-    //       (result) => {
-    //         console.log(result.text);
-    //         setValue({
-    //           user_name: "",
-    //           user_lastname: "",
-    //           user_email: "",
-    //           message: "",
-    //         });
-    //       },
-    //       (error) => {
-    //         console.log(error.text);
-    //       }
-    //     );
-    // } else {
-    //   console.log("error");
-    // }
   };
 
   return (

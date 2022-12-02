@@ -10,8 +10,6 @@ function CallToAction() {
   useScroll(() => {
     if (window.scrollY > 1000) {
       setAnimate(true);
-    } else {
-      setAnimate(false);
     }
   });
 

@@ -7,7 +7,6 @@ import { useScroll } from "../eventslisteners";
 function Transport() {
   const [animate, setAnimate] = useState(false);
   useScroll(() => {
-    console.log(window.scrollY);
     if (window.scrollY > 1200) {
       setAnimate(true);
     }
@@ -80,7 +79,8 @@ function Transport() {
         <div className="flex flex-col items-center">
           <img
             src={reparto}
-            alt=""
+            loading="lazy"
+            alt="reparto"
             className="w-3/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 bg-gray-500 animate__animated animate__backInLeft"
           />
         </div>

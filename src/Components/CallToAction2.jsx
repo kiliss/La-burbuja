@@ -9,8 +9,6 @@ function CallToAction2() {
   useScroll(() => {
     if (window.scrollY > 1200) {
       setAnimate(true);
-    } else {
-      setAnimate(false);
     }
   });
 
