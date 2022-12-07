@@ -57,7 +57,7 @@ function Contact() {
     if (Object.keys(errors).length === 0) {
       // navigate to / if close toast notification
       emailjs
-      .sendForm( "service_dggwwbn", "template_k3mouyu", form.current, "i0JmX0Ql5V-R4r_co" )
+      .sendForm( "service_nyt9sgo", "template_k3mouyu", form.current, "i0JmX0Ql5V-R4r_co" )
       .then(
         (result) => {
           console.log(result.text);
